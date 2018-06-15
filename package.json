@@ -8,7 +8,8 @@
   },
   "author": "Matt Duffield <matt.duffield@gmail.com> (https://frontendcreator.com/)",
   "fecDependencies": {
-    "kendo.all.min": "https://fec.blob.core.windows.net/bundles/kendo-ui/2017.2.621/kendoui-javascript.js"
+    "kendo.all.min": "https://fec.blob.core.windows.net/bundles/kendo-ui/2017.2.621/kendoui-javascript.js",
+    "aurelia-kendoui-bridge": "https://fec.blob.core.windows.net/bundles/kendo-ui/2017.2.621/aurelia-kendoui-bridge.js"
   },
   "dependencies": {
     "aurelia-animator-css": "1.0.4",
