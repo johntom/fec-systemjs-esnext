@@ -91,6 +91,10 @@ function buildDependencyMap() {
           // Now load the main entry e.g. https://unpkg.com/lodash@4.17.4/lodash.js
           const valueUri = `npm:${name}@${version}/${main}`;
           map[name] = valueUri;
+          for (const [key2, value2] of Object.entries(data.fecDependencies)) {
+            console.log(`${key2} ${value2}`);
+            map[key2] = value2;
+          }
         }
         localStorage.setItem('packageMap', JSON.stringify(map));
         localStorage.setItem('packagePackages', JSON.stringify(packages));

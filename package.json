@@ -7,6 +7,9 @@
     "type": "git"
   },
   "author": "Matt Duffield <matt.duffield@gmail.com> (https://frontendcreator.com/)",
+  "fecDependencies": {
+    "kendo.all.min": "https://fec.blob.core.windows.net/bundles/kendo-ui/2017.2.621/kendoui-javascript.js"
+  },
   "dependencies": {
     "aurelia-animator-css": "1.0.4",
     "aurelia-binding": "2.0.0",
