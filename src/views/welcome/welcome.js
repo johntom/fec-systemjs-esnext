@@ -14,7 +14,7 @@ export class Welcome {
     // alert('nDate '+nDate)
 
     let nDate = moment().format('MM/DD/YYYY')
-    this.heading = 'Welcome to the Aurelia Navigation App - ' + nDate//+moment("2018-06-01 12:00").format();
+    this.heading = '123 - Welcome to the Aurelia Navigation App - ' + nDate//+moment("2018-06-01 12:00").format();
 
   }
 
